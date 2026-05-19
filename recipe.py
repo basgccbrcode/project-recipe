@@ -20,4 +20,8 @@ def receipe_ingredients(self, ingredients):
 
     self.instructions = "preheat oven to temperature (what is that in celsius?), mix ingredients, bake for time minutes"
 
-    # Homework: to be continued...
+def Breakfast(self, category):
+    print("Recipe for breakfast")
+
+def Lunch(self, category):
+    print("Recipe for lunch")

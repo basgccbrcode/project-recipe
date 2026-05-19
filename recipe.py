@@ -8,6 +8,8 @@ class Recipe:
         self.category = category
         self.rating = rating
 
+        # bas' updates, change back if conflict
+
 #----------------------
 
 def receipe_name(self, name):
@@ -22,12 +24,13 @@ def temp_num(self, temp):
 
 def receipe_ingredients(self, ingredients):
     print(f"Recipe: {self.name}")
+    print(f"Time: {self.time}")
     print("Ingredients:")
     for ingredient in self.ingredients:
         print(f"- {ingredient}")
     self.ingredients += ingredients
 
-    self.instructions = print(f"preheat oven to {temp_num} (what is that in celsius?), mix ingredients, bake for {time_to_cook} minutes")
+    self.instructions = print(f"preheat oven to {temp_num}, mix ingredients, bake for {time_to_cook} minutes")
 
 <<<<<<< HEAD
 def Breakfast(self, category):

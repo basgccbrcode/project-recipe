@@ -21,3 +21,7 @@ def receipe_ingredients(self, ingredients):
     self.instructions = "preheat oven to temperature (what is that in celsius?), mix ingredients, bake for time minutes"
 
     # Homework: to be continued...
+#recipe_list[Recipe(field, field, field), Recipe(field, field, field)]
+#recipe_list.append(Recipe(Field, field etc))
+#for Recipe in recipe_list
+    #print Recipe.name    

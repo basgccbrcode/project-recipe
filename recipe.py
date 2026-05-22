@@ -32,4 +32,14 @@ def receipe_ingredients(self, ingredients):
 #recipe_list[Recipe(field, field, field), Recipe(field, field, field)]
 #recipe_list.append(Recipe(Field, field etc))
 #for Recipe in recipe_list
-    #print Recipe.name    
+    #print Recipe.name 
+
+
+
+
+"""
+Search and Organization:
+#matches = [r for r in recipe_list if r.name == recipeA]
+#print([r.name for r in matches])
+
+"""

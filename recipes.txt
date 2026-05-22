@@ -1,1 +1,6 @@
 #List of recipes#                             Write and pull to this file please!
+
+Tuna Mornet:
+
+2 John West tuna
+

@@ -60,6 +60,63 @@ class MealMapCore:
 
 
 
+                   #Saving all recipe to exterior file. WILL OVERWRITE ALL VALUES PREVIOUSLY STORED#
+    def save_to_txt(self, filename="recipes.txt"):
+        with open(filename, "w", encoding="utf-8") as f:  # "w" = overwrite
+            for r in self.recipe_list:
+                f.write(f"{r.name}|{','.join(r.ingredients)}|{r.instructions}|{r.category}|{r.rating}\n")
+        print(f"Wrote {len(self.recipe_list)} recipes to {filename}")
+"""
+##############################################################################################
+                                FRONT END
+##############################################################################################
+"""
+def main():
+   manager = RecipeManager()
+
+
+    #adding bar values
+   manager.recipe_list.append(
+       Recipe("Chocolate Cake",
+              ["flour", "sugar", "cocoa", "eggs"],
+              "Preheat oven to 180C, mix ingredients, bake 30 minutes",
+              "Dessert", 4.5)
+   )
+
+# User interface!
+   while True:
+       print("\n" + "="*30)
+       print("RECIPE MANAGEMENT")
+       print("="*30)
+       print("1. View all recipes")
+       print("2. View recipe details")
+       print("3. Add recipe")
+       print("4. Edit recipe")
+       print("5. Remove recipe")
+       print("6. Search")
+       print("7. Quit")
+
+
+       choice = input("\nChoose (1-7): ").strip()
+
+#           Potential choices
+       if choice == "1":
+           manager.read_recipe_names()
+       elif choice == "2":
+           manager.read_recipe()
+       elif choice == "3":
+           manager.add_recipe()
+       elif choice == "4":
+           manager.edit_recipe()
+       elif choice == "5":
+           manager.remove_recipe()
+       elif choice == "6":
+           manager.search()
+       elif choice == "7":
+           print("Exiting!")
+           break
+       else:
+           print("Invalid choice")
 
 
 """

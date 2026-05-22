@@ -34,7 +34,7 @@ def Lunch(self, category):
     print("Recipe for lunch")
 
 def Dessert(self, category):
-    print("Custard or another recipe")
+    print("Custard or another recipe?")
 
     # Homework: to be continued...
 #recipe_list[Recipe(field, field, field), Recipe(field, field, field)]

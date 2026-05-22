@@ -4,6 +4,6 @@ Tuna Mornet:
 
 2 John West tuna
 
-Put tuna in the microwave (not sure of the temp) maybe 90. 
+Put tuna in the microwave (not sure of the temp) maybe 90. this in turn consumes 800-1000W (Jackery, 2023).
 
-#homework to do
+# homework to do

@@ -36,11 +36,28 @@ def Lunch(self, category):
 def Dessert(self, category):
     print("Custard or another recipe?")
 
-    # Homework: to be continued...
-#recipe_list[Recipe(field, field, field), Recipe(field, field, field)]
-#recipe_list.append(Recipe(Field, field etc))
-#for Recipe in recipe_list
-    #print Recipe.name 
+class RecipeManager:
+    def __init__(self):
+        self.recipe_list = []
+
+    def add_recipe(self, recipe):
+        self.recipe_list.append(recipe)
+
+    def remove_recipe(self, index):
+        self.recipe_list.pop(index)
+
+    def read_recipe(self, index):
+        r = self.recipe_list[index]
+        print(r.name, r.ingredients)
+
+    def read_recipe_names(self):
+        for r in self.recipe_list:
+            print(r.name)
+
+    def search(self, name):
+        matches = [r for r in self.recipe_list if r.name.lower() == name.lower()]
+        return matches
+
 
 
 

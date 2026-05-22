@@ -36,7 +36,7 @@ def Lunch(self, category):
 def Dessert(self, category):
     print("Custard or another recipe?")
 
-class RecipeManager:
+class MealMapCore:
     def __init__(self):
         self.recipe_list = []
 

@@ -1,9 +1,11 @@
 #List of recipes#                             Write and pull to this file please!
 
-Tuna Mornet:
+Carr family (Sebastian)
+
+Tuna Mornet (usually cooked at dinner ):
 
 2 John West tuna
 
-Put tuna in the microwave (not sure of the temp) maybe 90. this in turn consumes 800-1000W (Jackery, 2023).
+Put tuna in the microwave for 5mins (not sure of the temp) maybe 90. this in turn consumes 800-1000W (Jackery, 2023).
 
 # homework to do
